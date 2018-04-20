@@ -1,0 +1,63 @@
+#container {
+	width: 370px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+
+#names {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.row {
+	margin: 30px auto 10px auto;
+	padding: 10px 5px;
+}
+
+#submit {
+	margin-left: 10px;
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	margin: 10px 0 30px 0;
+}
+
+input {
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #B3B3B3;
+	border-radius: 5px;
+	margin: 10px auto;
+	display: block;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+#player-color {
+	display: none;
+	font-size: 20px;
+}
+
+.circle {
+	position: relative;
+	width: 38px;
+	height: 38px;
+	display: inline-block;
+	margin: 3px 5px;
+	border-radius: 50%;
+	background-color: #fff;
+	vertical-align: center;
+}
+
+.circle-blue {
+	background-color: blue;
+}
+
+.circle-red {
+	background-color: red;
+}
